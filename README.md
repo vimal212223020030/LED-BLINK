@@ -41,50 +41,55 @@ The **LPC2148**, developed by NXP Semiconductors (Philips), is a 16/32-bit ARM7-
 ### 🧭 **Procedure**
 
 1. Open **STM32CubeIDE**.
-   <img width="1050" height="591" alt="image" src="https://github.com/user-attachments/assets/109135f6-e6f9-46f8-86e1-ecafa6170b01" />
+  ![WhatsApp Image 2025-10-29 at 07 38 27_98dc18a2](https://github.com/user-attachments/assets/8b8d9f61-3c23-483b-a692-7ea4ae1613b5)
 
 2. Click **File → New STM32 Project**.
-   <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/a5799efb-57e1-42b8-ba46-b09f32d86fcb" />
-<img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/edf33429-8eea-4857-a991-c2d7706fc787" />
+![WhatsApp Image 2025-10-29 at 07 53 27_e367da24](https://github.com/user-attachments/assets/188bf355-963c-43fb-a323-3143364ff7e6)
+![WhatsApp Image 2025-10-29 at 07 53 45_ff3a737e](https://github.com/user-attachments/assets/609fbbd5-45bc-4c2f-b703-f5a7fca0815e)
+
 
 3. Select the **target microcontroller** or board and click **Next**.
-   <img width="1110" height="624" alt="image" src="https://github.com/user-attachments/assets/f93d88b6-cd7f-49db-84de-351f9b116488" />
+   ![WhatsApp Image 2025-10-29 at 07 54 02_beff69be](https://github.com/user-attachments/assets/d1f417f6-0786-43e1-af6a-02ea1abc4ffb)
+
 
 
 
 4. Name the project.
-   <img width="533" height="588" alt="image" src="https://github.com/user-attachments/assets/63de2bab-69d4-4cb9-8db6-1b57adff9878" />
+  <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/53a5c2c8-b044-4480-8c3d-055bd8010351" />
+
 
 5. The corresponding `.ioc` file will be generated automatically.
-  <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/8900847c-6745-43e2-9ecf-2e66877fdc49" />
+  ![WhatsApp Image 2025-10-29 at 07 54 34_3b0373ff](https://github.com/user-attachments/assets/14b3f83b-8fbc-470c-bba9-a4ae481a0577)
 
 6. Configure the pins as **GPIO (Input/Output)**, **USART**, etc. as needed.
-   <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/acc4f1c4-5e33-431b-8a76-3b102016baa6" />
-<img width="1110" height="624" alt="image" src="https://github.com/user-attachments/assets/b7abcd80-797d-451f-a7c3-23f303822423" />
+  ![WhatsApp Image 2025-10-29 at 07 54 53_183d6d35](https://github.com/user-attachments/assets/69fa1b91-e38a-44d4-a43f-781ba76dbab6)
+
+
 
 7. Save the configuration (`Ctrl + S`) – the base C program will be generated automatically.
    <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/dbf4b205-5db9-4e9b-8150-94f441c8b116" />
- 
+ ![WhatsApp Image 2025-10-29 at 07 55 21_438c5f09](https://github.com/user-attachments/assets/25c6605f-55a3-4547-9dbe-e622ecaff1ff)
+
 8. Edit the generated main program as required.
-   <img width="1110" height="624" alt="image" src="https://github.com/user-attachments/assets/05b39060-35d6-420d-9f4d-8721439bd82f" />
-<img width="1104" height="621" alt="image" src="https://github.com/user-attachments/assets/2ec55709-a45f-4e6e-8738-6aa94138eab1" />
+![WhatsApp Image 2025-10-29 at 07 55 51_914fc2d3](https://github.com/user-attachments/assets/1b34cf56-be85-4ce5-8389-094253db6360)
 
 9. Click **Project → Build All**.
     <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/264cd0a8-3e96-4668-822e-838ecfafc527" />
+![WhatsApp Image 2025-10-29 at 07 44 57_39be0e95](https://github.com/user-attachments/assets/6ad83d20-983b-4d92-82c0-7877b4b09421)
 
 10. Link the **HEX file** using the post-build process.
-    <img width="1053" height="465" alt="image" src="https://github.com/user-attachments/assets/478187a0-0ee6-4c50-9cac-c3b5ee18521b" />
+   ![WhatsApp Image 2025-10-29 at 07 45 35_482435ee](https://github.com/user-attachments/assets/bff545d5-d2aa-41e0-9a83-b5fce65e53f0)
+ 
 
 11. Click **Debug** and connect the **STM Nucleo Board**.
-    <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/f72fff44-6073-4ae4-aa78-0da455df9af1" />
+  ![WhatsApp Image 2025-10-29 at 07 45 56_dcdcc31d](https://github.com/user-attachments/assets/831ecc94-6187-4663-b33f-45008e609170)
+![WhatsApp Image 2025-10-29 at 07 46 35_87a6d573](https://github.com/user-attachments/assets/e8c80b79-e3f5-4143-b203-efdc2f017337)
 
 13. Click **Run** to execute the program.
     
 ---
 
 ### 💻 **Program**
-
-
 ```c
 #include "main.h"
 
@@ -110,7 +115,12 @@ int main(void)
 ### OUTPUT
 CASE 1: LED ON 
 
+![WhatsApp Image 2025-10-29 at 08 08 14_165bc418](https://github.com/user-attachments/assets/a1fc23c5-28da-4e78-a753-8b8bd7bb13e0)
+
+
 CASE 2: LED OFF
+
+![WhatsApp Image 2025-10-29 at 08 08 15_3566ea99](https://github.com/user-attachments/assets/413a9889-c04b-48b3-99eb-e87b9cd77ca7)
 
 ---
 ### RESULT
